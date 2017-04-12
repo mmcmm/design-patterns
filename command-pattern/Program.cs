@@ -1,4 +1,6 @@
-﻿namespace CommandDemo
+﻿using System;
+
+namespace CommandDemo
 {
     class Program
     {
