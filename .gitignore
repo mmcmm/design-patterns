@@ -34,3 +34,6 @@ sysinfo.txt
 
 # Idea
 .idea/
+
+bin/
+obj/
