@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommandDemo
+namespace CommandDemo.Commands
 {
     public class NotFoundCommand : ICommand
     {

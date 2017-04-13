@@ -1,4 +1,4 @@
-﻿namespace CommandDemo
+﻿namespace CommandDemo.Commands
 {
     public interface ICommandFactory
     {
