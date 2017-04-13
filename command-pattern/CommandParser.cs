@@ -24,7 +24,7 @@ namespace CommandDemo
             return command.MakeCommand(args);
         }
 
-        ICommandFactory FindRequestedCommand(string commandName)
+        private ICommandFactory FindRequestedCommand(string commandName)
         {
             return _availableCommands
                 .FirstOrDefault(cmd => cmd.CommandName == commandName);
