@@ -1,7 +1,27 @@
-﻿namespace CommandDemo.Commands
-{
-    public class ShipOrderCommand
-    {
+﻿using System;
 
+namespace CommandDemo.Commands
+{
+    public class ShipOrderCommand : ICommand, ICommandFactory
+    {
+        public void Execute()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string CommandName
+        {
+            get { return "ShipOrder"; }
+        }
+
+        public string Description
+        {
+            get { return CommandName; }
+        }
+
+        public ICommand MakeCommand(string[] arguments)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
