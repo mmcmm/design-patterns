@@ -1,4 +1,4 @@
-﻿namespace Poker
+﻿namespace ChainOfResponsibility
 {
     class HandCatagorizerChain
     {

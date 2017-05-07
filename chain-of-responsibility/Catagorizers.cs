@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Poker
+namespace ChainOfResponsibility
 {
     class HighCardCatagorizer : HandCatagorizer
     {
