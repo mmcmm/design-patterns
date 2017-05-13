@@ -1,10 +1,10 @@
 namespace Factory.Autos.BMW
 {
-    public class BMWM3 : BMWBase
+    public class BMW740i : BMWBase
     {
         public override string Name
         {
-            get { return "BMW M3"; }
+            get { return "BMW 740i"; }
         }
     }
 }
