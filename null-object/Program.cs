@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Automobiles.Autos;
 
-namespace null_object
+namespace Automobiles
 {
-    internal class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
+            var autoRepository = new AutoRepository();
+
+            AutomobileBase automobile = autoRepository.Find("bmw");
+
+            if (automobile == AutomobileBase.NULL)
+                return;
+
+            automobile.Start();
+            automobile.Stop();
         }
     }
 }
